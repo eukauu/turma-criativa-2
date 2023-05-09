@@ -1,3 +1,6 @@
+body{
+    font-family: sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,5 +20,19 @@ height: 200px;}
 
 .cabecalho-item{
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 100px;
 }
+
+.turma{
+    background-image: linear-gradient(blueviolet,rgb(139, 91, 180));
+}
+
+.turma-titulo{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.turma-imagem{
+    width: 300px;
+}
+
