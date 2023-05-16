@@ -1,10 +1,17 @@
-body{
-    font-family: sans-serif;
-}
+        /*SELETOR UNIVERSAL*/
+
 *{
     margin: 0;
     padding: 0;
 }
+
+        /*CORPO DA PÁGINA*/
+body{
+    font-family: sans-serif;
+}
+
+/*SECÇÃO CABEÇALHO*/
+
 .cabecalho{
     background-color: blueviolet;
     color: white;
@@ -22,9 +29,10 @@ height: 200px;}
     display: inline-block;
     padding: 0 100px;
 }
+/*SECÇÃO TURMA*/
 
 .turma{
-    background-image: linear-gradient(blueviolet,rgb(139, 91, 180));
+    background-image: linear-gradient(blueviolet,rgb(90, 53, 122));
 }
 
 .turma-titulo{
@@ -32,7 +40,42 @@ height: 200px;}
     text-align: center;
 }
 
+.turma-div{
+display: flex;
+justify-content: center;
+}
+
 .turma-imagem{
     width: 300px;
+}
+
+/*SECÇÃO ESTUDANTE*/
+
+.Estudante{
+ background-image: linear-gradient(blueviolet,rgb(90, 53, 122));
+}
+
+.Estudante-titulo{
+text-align: center;
+font-size: 24px;
+padding: 30px 0;
+}
+
+.Estudante-div{
+text-align: center;
+}
+
+.Estudante-imagem{
+width: 90px;
+height: 100px;
+}
+
+.Estudante-icone{
+width: 52px;
+height: 53px;
+}
+
+.Estudante-legenda{
+font-size: 14px;
 }
 
